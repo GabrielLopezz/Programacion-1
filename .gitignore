@@ -130,3 +130,6 @@ dmypy.json
 /bin
 /include
 .env
+lib64
+pyvenv.cfg
+
