@@ -130,7 +130,10 @@ dmypy.json
 /bin
 /include
 .env
+/lib
 /lib64
 pyvenv.cfg
 /.idea
+/share
+**/__pycache__
 
