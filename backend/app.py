@@ -1,10 +1,20 @@
-from main import create_app
 import os
+from flask import Flask
+from dotenv import load_dotenv
 
+from flask_restful import Api
 
-app = create_app()
+import main.resources as resources
 
-app.app_context().push()
+api = Api()
 
-if __name__ == '__main__':
-    app.run(debug=True,port=os.getenv('PORT'))
+def create_app():
+    app = Flask(__name__)
+    load_dotenv()
+
+    api.add_resource(resources.ProfessorsResource, '/bolsones')
+
+    api.add_resource(resources.ProfessorResource, '/bolson/<id>')
+
+    api.init_app(app)
+    return app
