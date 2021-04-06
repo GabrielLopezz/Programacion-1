@@ -1,2 +1,2 @@
-from .Professor import Professor as ProfessorResource
-from .Professor import Professors as ProfessorsResource
+from .Bolson import Bolson as BolsonResource
+from .Bolson import Bolsones as BolsonesResource
