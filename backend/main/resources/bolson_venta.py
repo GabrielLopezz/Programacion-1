@@ -6,5 +6,5 @@ class BolsonVenta(Resource):
 
 
 
-class BolsonesVenta(Resource):
+class BolsonesVentas(Resource):
     def get(self):
