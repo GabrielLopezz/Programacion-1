@@ -1,6 +1,6 @@
 from .bolson import Bolson as BolsonResource
 from .bolson import Bolsones as BolsonesResource
-"""from .BolsonVenta import BolsonVenta as BolsonVentaResource
+from .BolsonVenta import BolsonVenta as BolsonVentaResource
 from .BolsonVenta import BolsonesVentas as BolsonesVentasResource
 from .BolsonPendiente import BolsonPendiente as BolsonPendienteResource
 from .BolsonPendiente import BolsonesPendientes as BolsonesPendientesResource
@@ -13,4 +13,4 @@ from .Compra import Compras as ComprasResource
 from .Cliente import Cliente as ClienteResource
 from .Cliente import Clientes as ClientesResource
 from .Proveedor import Proveedor as ProveedorResource
-from .Proveedor import Proveedores as ProveedoresResource"""
+from .Proveedor import Proveedores as ProveedoresResource

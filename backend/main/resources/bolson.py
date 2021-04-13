@@ -2,8 +2,9 @@ from flask_restful import Resource
 from flask import request
 
 BOLSONES = {
-    1: {'nombre': 'LaGranja', },
-    2: {'nombre': 'Timo', },
+    1: {'primer bolson': 'Bolson1'},
+    2: {'segundo bolson': 'Bolson2'},
+    3: {'tercer bolson': 'Bolson3'},
 }
 
 class Bolson(Resource):
